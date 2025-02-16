@@ -79,7 +79,7 @@ html {
         line-height: 1.8; /* Increased line-height for readability */
         font-family: "Roboto", "Arial", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
           sans-serif;
-           
+        
       }
 
 
@@ -489,6 +489,11 @@ html {
         font-weight: 500;
         color: #414141
       }
+      .offer-section {
+        background-image: url('pattern-2.svg');
+        background-repeat: repeat;
+        background-position: bottom;
+      }
     </style>
   </head>
   <body>
@@ -776,7 +781,7 @@ html {
     </section>
 
     <!-- Crypto Disasters -->
-    <section class="py-5">
+    <section class="py-5 disaster-section">
       <div class="container">
         <h2 class="section-title antonio">
           🔥 CRYPTO DISASTERS 🔥<br>Even The Experts Can Lose Everything
@@ -876,9 +881,9 @@ html {
      
 
      <!-- Offer Section -->
-     <section class="bg-light pb-5" id="pricing">
-      <div class="container container-narrow d-flex justify-content-center">
-        <div class="card offer-card">
+     <section class="bg-light mt-0 py-5 offer-section" id="pricing">
+      <div class="container container-narrow d-flex justify-content-center" id="cta">
+        <div class="card offer-card mb-5">
           <div class="card-body text-center">
             <h2 class="font-weight-bold mb-4">
               <img src="./ef-logo.png" alt="EncryptFire Logo" class="img-fluid offer-logo" /><br />Limited Time Offer
@@ -893,18 +898,17 @@ html {
               security. For a limited time, get <span class="strong">Encrypt<span class="orange-text">Fire</span></span> at an exclusive
               discounted price before it returns to full price.
             </p>
-            <p class="mb-4">
-              <strong>100% Risk-Free<br>60-Day Money-Back Guarantee</strong
-              >
+            
+            <a href="#" class="btn btn-primary btn-lg orange"
+              >Get EncryptFire</a
+            ><strong><br><br>100% Risk-Free<br>60-Day Money-Back Guarantee</strong>
+            <p class="my-5">
+              
               <div class="center smaller center"
                 >We stand behind <span class="strong">Encrypt<span class="orange-text">Fire</span></span>. If you’re not completely
                 satisfied, you can receive a full refund up to 60 days no
-                questions asked.</div
-              ><br>
+                questions asked.</div><br>
             </p>
-            <a href="#cta" class="btn btn-primary btn-lg orange"
-              >Get EncryptFire</a
-            >
           </div>
         </div>
       </div>
