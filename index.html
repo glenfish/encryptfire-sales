@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title><span class="strong">Encrypt<span class="orange-text">Fire</span></span>: Your Ultimate Offline Crypto Security Suite</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      /* Global Styles */
+      body {
+        background-color: #f4f7fa;
+        color: #333;
+        line-height: 1.8; /* Increased line-height for readability */
+        font-family: "Arial", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      .container {
+        max-width: 1000px;
+      }
+      /* Hero/Header Section */
+      .hero {
+        background: linear-gradient(to bottom, #cacaca, #f4f7fa);
+        color: #fff;
+        padding: 50px 0; /* Reduced height */
+        text-align: center;
+        
+      }
+      .hero .logo {
+        max-width: 700px;
+        min-width: 200px;
+        width: 100%;
+        margin: 0 auto 20px auto;
+        border: 2px solid #bdbdbd;
+        border-radius: 16px;
+        padding: 10px;
+        background-color: rgb(255, 255, 255);
+      }
+      .hero .logo img {
+        position: relative;
+        top: 5px;
+      }
+      .hero h1 {
+        font-size: 3em;
+        margin-bottom: 10px;
+      }
+      .hero .lead {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: 1.5em; /* Larger subheadline */
+        margin-bottom: 15px;
+  
+        word-spacing: 0.1em;
+        color: rgb(64, 64, 64);
+      }
+      /* Section Titles */
+      .section-title {
+        margin-bottom: 10px;
+        font-weight: 700;
+        color: #333;
+        text-align: center;
+        font-size: 2.5em;;
+        padding-top:30px;
+      }
+      .white {
+        color: white!important;
+      }
+      /* Cards - Left aligned with subtle bullet points */
+      .card ul {
+        list-style-type: disc;
+        margin-left: 20px;
+        text-align: left;
+        padding-left: 0;
+      }
+      .card-body {
+        text-align: left;
+      }
+      .card {
+        border: 1px solid rgb(233, 233, 233);
+        border-radius: 8px;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+        margin: 0px;
+      }
+      .card-disasters {
+        border: 1px solid rgb(233, 233, 233);
+        border-radius: 8px;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+        margin: 30px;
+      }
+      /* Rounded Buttons */
+      .btn-primary,
+      .btn-success,
+      a.btn-outline-primary {
+        border-radius: 50px;
+        padding: 10px 20px;
+      }
+      /* Adjusting the grid breakpoint for cards: show cards in a row only on large screens */
+      @media (max-width: 991.98px) {
+        .card-col {
+          flex: 0 0 100%;
+          max-width: 100%;
+        }
+        .break {
+          display: none;
+        }
+        
+      }
+      @media (min-width: 992px) {
+        .card-col {
+          flex: 0 0 33.333333%;
+          max-width: 33.333333%;
+        }
+        .break {
+          display: inline-block;
+        }
+      }
+      /* Offer Card Styling */
+      .offer-card {
+        max-width: 860px;
+        border-radius: 15px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+        padding: 50px;
+        background-color: #ffffff; /* Slightly different shade of gray */
+        font-size: 1.5em;
+      }
+      /* Footer Styling */
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+      }
+      .left {
+        text-align: left;
+      }
+      .strike {
+        text-decoration: line-through;
+        font-size: 1.25em;
+      }
+      .price {
+        font-size: 1.25em;
+      }
+      .subheader {
+        font-size: 1.1em;
+        color: black;
+      }
+      .larger {
+        font-size: 2.35rem;
+        font-weight: bold;
+      }
+      .large {
+        font-size: 1rem;
+        font-weight: bold;
+      }
+      .orange {
+        background-color: rgb(255, 133, 3);
+        border: 2px solid rgb(253, 194, 131);
+      }
+      .glow {
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+      }
+      .screenshot {
+        width: 96%;
+        border: 8px solid white;
+        border-radius: 10px;
+        min-width: 400px;
+        max-width:680px;
+      }
+      .navbar-logo {
+        min-height:30px;
+        max-height:40px;
+      }
+      .offer-logo {
+        min-height:30px;
+        max-height:90px;
+        margin-bottom:30px;
+      }
+      .container-narrow {
+        max-width: 700px;
+      }
+      .narrow {
+        max-width: 690px!important;
+        display: block;
+        margin: auto;
+        font-size: 85%!important;
+      }
+      .highlight {
+        background-color: rgb(255, 255, 186);
+        padding: 10px;
+      }
+      .strong {
+        font-weight: bold;
+      }
+      .orange-text {
+        color: rgb(255, 133, 3);
+      }
+      .levelup {
+        background: linear-gradient(to right, #7c5b01, #c39f3e, #997002);
+        color: white;
+      }
+      .video {
+        width: 96%;
+        height: 500px;
+        margin: 10px auto;
+        border-radius: 8px;
+      }
+      .quote {
+        font-size: 1.1em;
+        font-style: italic;
+        color: #333;
+      }
+      .red {
+        color: rgb(184, 0, 0);
+      }
+      .underline {
+        text-decoration: underline;
+      }
+      .lineheight-medium {
+        line-height: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container">
+        <img src="./ef-logo.png" alt="EncryptFire Logo" class="img-fluid navbar-logo" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#demo">Inside EncryptFire</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Buy Now</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section with Logo & Subheadline -->
+    <section class="hero">
+      <div class="container">
+        
+        <span class="subheader ">
+          <span class="larger ">Are Your Crypto Wallets & Keys Safe?</span><br>
+          <span class="narrow lineheight-medium"><span class="strong large red">There's a problem with crypto security that most people don't think about until it's too late.</span><br>Crypto seed and key backups are a <span class="underline">single point of failure</span>. If you lose access to your wallet seed phrases, private keys, or exchange logins, <span class="underline">you lose everything</span>.<br><br><span class="strong quote "><span class="strong">Encrypt<span class="orange-text">Fire</span></span> is the solution to hacks, loss, theft, destruction and human error</span></span>
+            
+        </span>
+        
+      </div>
+    </section>
+    <section>
+      <div class="text-center">
+        <img src="./screenshot.png" alt="EncryptFire Screenshot" class="screenshot img-fluid" />
+      </div>
+    </section>
+    <!-- Introduction -->
+    <section class="py-5">
+      <div class="container container-narrow">
+        <h2>Do You Trust Your Crypto Backup?</h2>
+        <p>
+          Imagine having a <span class="strong quote">bulletproof backup</span> of your wallet seed phrases,
+          private keys, and account logins— completely offline, encrypted, and
+          accessible only to you. No risk of hacks, no lost access, no forgotten
+          passwords.
+        </p>
+        <p class="quote highlight">
+          With <span class="strong">Encrypt<span class="orange-text">Fire</span></span>, this is no longer just a possibility—it's a turnkey
+          solution that runs offline in any web browser. <span class="strong">Not your keys, not your crypto</span>. We're all about self-custody
+          and multi-location cold storage backup. Ready to restore
+          should you need to recover & restore access at any time.
+        </p>
+        <h3 class="pt-4">
+          Loss, Hacks, Theft &amp; Disasters
+        </h3>
+        <p>
+          This is the all-in-one offline security solution for crypto
+          holders. Whether you're a seasoned <span class="strong">investor or an active trader</span>,
+          keeping your digital assets safe is non-negotiable. It
+          provides a push-button, encrypted cold storage system for wallet seed
+          phrases, private keys, and account logins—keeping them safe,
+          decentralized, and recoverable.
+        </p>
+      </div>
+    </section>
+
+    <!-- Why You Need EncryptFire -->
+    <section class="levelup py-5" id="features">
+      <div class="container text-white">
+        <h2 class="section-title pb-5 white">🚨 Investors & Traders: Level Up</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <h4>1️⃣ Eliminate a Single Point of Failure</h4>
+            <ul>
+              <li>
+                Not having a backup means one mistake, one accident, one breach
+                = total loss.
+              </li>
+              <li>
+                But keeping only one backup minimizes exposure risk—so how do
+                you secure multiple backups without increasing risk?
+              </li>
+              <li>
+                <span class="strong">Encrypt<span class="">Fire</span></span>'s toolset allows you to harden your seed phrases,
+                private keys, and credentials so you can store them safely
+                across multiple offline, redundant locations.
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h4>2️⃣ Password Managers Aren't For Crypto</h4>
+            <ul>
+              <li>
+                Saving sensitive crypto keys and seed phrases in a password
+                manager puts your entire wealth at risk.
+              </li>
+              <li>
+                If your password manager is hacked, so is your entire portfolio.
+              </li>
+              <li>
+                <span class="strong">Encrypt<span class="">Fire</span></span> lets you store your credentials securely
+                offline—completely disconnected from internet threats.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-6">
+            <h4>3️⃣ Private Cold Storage Solution</h4>
+            <ul>
+              <li>
+                Major crypto exchanges like Coinbase & Gemini use elaborate
+                offline cold storage systems.
+              </li>
+              <li>
+                Think of <span class="strong">Encrypt<span class="">Fire</span></span> as your own personal version—but without
+                trusting a third party.
+              </li>
+              <li>
+                You control the access, the encryption, and the backup
+                locations.
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h4>4️⃣ Protect Your Family's Wealth</h4>
+            <ul>
+              <li>
+                In most relationships and families, only one person holds the
+                crypto assets and account logins.
+              </li>
+              <li>
+                If that person dies unexpectedly, the rest of the family is
+                locked out forever.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    
+
+    <!-- What's Inside EncryptFire? (Cards) -->
+    <section class="bg-light pb-5 mt-5" id="demo">
+      <div class="container">
+        <h2 class="section-title" >What’s Inside <span class="strong">Encrypt<span class="orange-text">Fire</span></span>?</h2>
+        <p class="text-center mb-5">
+          Security dashboard linking you to three specialized
+          tools:
+        </p>
+        <div class="d-flex flex-wrap">
+          <!-- FreezeSeeds Card -->
+          <div class="card-col mb-4 px-2">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title">🏆 FreezeSeeds</h3>
+                <p><strong>What it does:</strong></p>
+                <ul>
+                  <li>
+                    Encodes &amp; encrypts BIP39 seed phrases for maximum
+                    security.
+                  </li>
+                  <li>Makes recovery easy yet theft-resistant.</li>
+                  <li>Generates unique seedmaps so you stay in control.</li>
+                </ul>
+                <p><strong>Why you need it:</strong></p>
+                <ul>
+                  <li>Never lose access to your wallets.</li>
+                  <li>Disaster-proof your crypto holdings.</li>
+                  <li>
+                    Decentralized &amp; portable—store in multiple locations.
+                  </li>
+                </ul><br class="break" /><br class="break"/>
+                <a href="https://freezeseeds.com" target="_blank" class="btn btn-outline-primary mt-3">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <!-- FreezeKeys Card -->
+          <div class="card-col mb-4 px-2">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title">🔑 FreezeKeys</h3>
+                <p><strong>What it does:</strong></p>
+                <ul>
+                  <li>Encodes private keys into a unique cipher map.</li>
+                  <li>
+                    Encrypts &amp; splits key components for extreme security.
+                  </li>
+                  <li>
+                    Works with paper wallets, hardware wallets, and software
+                    wallets.
+                  </li>
+                </ul>
+                <p><strong>Why you need it:</strong></p>
+                <ul>
+                  <li>Paper wallets are vulnerable—this fortifies them.</li>
+                  <li>
+                    Trustless self-custody—you hold your keys, not a third
+                    party.
+                  </li>
+                  <li>AES-256 encryption with multiple backup redundancy.</li>
+                </ul>
+                <a href="https://freezekeys.com" target="_blank" class="btn btn-outline-primary mt-3">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <!-- FreezeAuth Card -->
+          <div class="card-col mb-4 px-2">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title">🔐 FreezeAuth</h3>
+                <p><strong>What it does:</strong></p>
+                <ul>
+                  <li>
+                    Turns your online logins into offline encrypted backups.
+                  </li>
+                  <li>
+                    Works with email, crypto exchanges, banking, social media
+                    &amp; more.
+                  </li>
+                  <li>Includes a Deadman Switch for inheritance planning.</li>
+                </ul>
+                <p><strong>Why you need it:</strong></p>
+                <ul>
+                  <li>Protect against account takeovers.</li>
+                  <li>
+                    No more password manager risks—keep your logins offline.
+                  </li>
+                  <li>
+                    Pass it on to your loved ones if the unexpected happens.
+                  </li>
+                </ul><br class="break"/>
+                <a href="https://freezeauth.com" target="_blank" class="btn btn-outline-primary mt-3">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    
+
+   
+
+   
+
+    <section>
+      <div class=" container">
+        
+        <div class=" text-center">
+          <div class=" text-center">
+            <iframe class="video" src="https://www.youtube.com/embed/hYmC-IE7vS0?si=6Vt8O-brEfTP49qK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <iframe class="video" src="https://www.youtube.com/embed/t4GBFQFpXnQ?si=qQfmfhOp1BjmIBjS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <!-- <div class=" text-center">
+          <iframe class="video" src="https://www.youtube.com/embed/kISPbLPyg0Q?si=95nmnCFRuF4PiKCU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class=" text-center">
+            <iframe class="video" src="https://www.youtube.com/embed/bBWxBHbwlVw?si=MJHJNlmPQPSuxw-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- Crypto Disasters -->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="section-title">
+          🔥 CRYPTO DISASTERS 🔥<br>Even The Experts Can Lose Everything
+        </h2>
+        <p class="text-center pb-4">
+          It's so easy to lose access to your digital assets. These are just a
+          few real-world examples ...<br>whether you're a big
+          banking family, tech mogul, entrepreneur or IT specialist.
+        </p>
+
+        <div class="card-disasters mb-3">
+          <div class="card-body">
+            <h4 class="card-title">Elon Musk</h4>
+            <p class="card-text">
+              <em
+                >"I literally own zero cryptocurrency, apart from 0.25 BTC that
+                a friend sent me many years ago. I have no idea where it is." –
+                Elon Musk (2017)</em
+              >
+            </p>
+            <ul>
+              <li>
+                Even the world’s most tech-savvy billionaire lost track of his
+                Bitcoin holdings. Without proper backup and redundancy, even
+                small amounts (which can increase in value over time) can be
+                permanently lost.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card-disasters mb-3">
+          <div class="card-body">
+            <h4 class="card-title">Matthew Mellon</h4>
+            <ul>
+              <li>
+                As an ambassador of Ripple Labs, Matthew Mellon held $1 billion
+                in XRP.
+              </li>
+              <li>
+                After his death, his family scrambled to recover his fortune.
+              </li>
+              <li>
+                Stored his digital keys in cold storage, under different
+                people's names—but without proper access planning, his family
+                couldn't retrieve the assets.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card-disasters mb-3">
+          <div class="card-body">
+            <h4 class="card-title">Gerald Cotten</h4>
+            <ul>
+              <li>
+                Founder of QuadrigaCX, one of Canada’s biggest crypto exchanges.
+              </li>
+              <li>
+                Held $250 million in customer funds—but died unexpectedly with
+                all private keys.
+              </li>
+              <li>
+                He had joked about storing his keys in a bank deposit box and in
+                a safe in the attic rafters, but no one else had access when he
+                passed.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card-disasters mb-3">
+          <div class="card-body">
+            <h4 class="card-title">James Howells</h4>
+            <ul>
+              <li>
+                In 2013, IT engineer James Howells accidentally threw away a
+                hard drive containing 8,000 BTC (now worth hundreds of
+                millions).
+              </li>
+              <li>
+                Despite extensive searches and recovery attempts, his Bitcoin
+                remains lost in a landfill.
+              </li>
+              <li>
+                This serves as a reminder: Digital assets must be backed up
+                securely, with redundancy and recovery planning.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        
+      </div>
+    </section>
+
+     <!-- Call to Action -->
+     <section class="py-3 text-center" id="cta">
+      <div class="container mb-5">
+        <h2 class="pt-0">🛡️ Take Control of Your Security</h2>
+        <p class=" card-textfont-weight-bold text-center block mb-5">
+          Always have a crypto backup and recovery plan.<br>
+          Make it decentralized and redundant.<br>
+          Make others aware of your plan.<br>
+          Automate it with a failsafe Deadman Switch.
+        </p>
+        
+        <!-- <p>Don’t wait until it’s too late. Protect your digital asset wealth.</p>
+        <a href="#" class="btn btn-success btn-lg orange">Get EncryptFire</a> -->
+      </div>
+    </section>
+
+     <!-- Offer Section as a Centered Card (Revised) -->
+     <section class="bg-light pb-5" id="pricing">
+      <div class="container container-narrow d-flex justify-content-center">
+        <div class="card offer-card">
+          <div class="card-body text-center">
+            <h2 class="font-weight-bold display-4 mb-4">
+              <img src="./ef-logo.png" alt="EncryptFire Logo" class="img-fluid offer-logo" /><br />Limited Time Offer
+            </h2>
+            <p class="mb-5">
+              PRICE: <span class="strike">$129 </span> &nbsp;Save 63%<br />
+              <strong class="highlight">DISCOUNTED PRICE:</strong> <span class="price">$47</span><br>WITH PROMO CODE "FIRE"
+              
+            </p>
+            <p class="mb-4  left">
+              We believe everyone should have access to top-tier crypto
+              security. For a limited time, get <span class="strong">Encrypt<span class="orange-text">Fire</span></span> at an exclusive
+              discounted price before it returns to full price.
+            </p>
+            <p class="mb-4">
+              <strong>100% Risk-Free<br>60-Day Money-Back Guarantee</strong
+              >
+              <div class="center"
+                >We stand behind <span class="strong">Encrypt<span class="orange-text">Fire</span></span>. If you’re not completely
+                satisfied, you can receive a full refund up to 60 days no
+                questions asked.</div
+              ><br>
+            </p>
+            <a href="#cta" class="btn btn-primary btn-lg orange"
+              >Get EncryptFire</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4">
+      <div class="container">
+        <p>&copy; 2025 Crypto Tools. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
