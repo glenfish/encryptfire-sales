@@ -16,6 +16,61 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <style>
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html {
+  box-sizing: border-box;
+}
+    
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* end reset */
       /* Global Styles */
       
       body {
@@ -24,11 +79,13 @@
         line-height: 1.8; /* Increased line-height for readability */
         font-family: "Roboto", "Arial", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
           sans-serif;
+           
       }
 
 
       .container {
         max-width: 1000px;
+        
       }
       /* Hero/Header Section */
       .hero {
@@ -142,19 +199,32 @@
         display:block;
       }
       }
+
+      @media (min-width:925px) {
+
+        h4 {
+          font-size: 1.725em!important; 
+        }
+       }
+
       @media (min-width:720px) and (max-width: 1023.89px) {
         .hero-headline {
         font-size: 2.4em!important;
         position: relative;
         top: -20px;
       }
-      .svg-underline {
+      /* .svg-underline {
         background-image: none!important;
-      }
+      } */
       .featured {
         font-size: 1.08em!important;
         font-weight: 500;
         color: #414141
+      }
+      .large {
+        font-size: 1.625em!important;
+        line-height:normal;
+        display:block;
       }
       }
       @media (min-width:579px) and (max-width: 719.98px) {
@@ -164,11 +234,13 @@
         top: -20px;
       }
       .blue-highlight {
-          background-color: transparent!important;
+          width: 100%!important;
+          display:block;
+
         }
-        .svg-underline {
+        /* .svg-underline {
           background-image: none!important;
-      }
+      } */
       .featured {
         font-size: 1.0em!important;
         font-weight: 500;
@@ -176,6 +248,15 @@
       }
       .screenshot {
         border: 9px solid white!important;
+      }
+      .large {
+        font-size: 1.6em!important;
+        line-height:normal;
+        display:block;
+      }
+      .offer-card {
+        padding: 30px 0px!important;
+        font-size: 1.35em!important;
       }
       }
       @media (min-width:0px) and (max-width: 578.98px) {
@@ -190,7 +271,9 @@
           
         }
         .blue-highlight {
-          background-color: transparent!important;
+          width: 100%!important;
+          display:block;
+
         }
         .svg-underline {
           background-image: none!important;
@@ -203,6 +286,21 @@
       .screenshot {
         border: 3px solid white!important;
       }
+      .large {
+        font-size: 1.0em!important;
+        line-height:normal;
+        /* display:block; */
+
+      }
+      .offer-card {
+        padding: 30px 0px!important;
+        font-size: 1.25em!important;
+      }
+      h4 {
+        margin-top: 20px;
+        font-size: 1.45em!important; 
+
+      }
       }
 
       /* Offer Card Styling */
@@ -210,7 +308,7 @@
         max-width: 860px;
         border-radius: 15px;
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-        padding: 50px;
+        padding: 30px;
         background-color: #ffffff; /* Slightly different shade of gray */
         font-size: 1.5em;
       }
@@ -257,8 +355,8 @@
         width: 96%;
         border: 19px solid white;
         border-radius: 10px;
-        min-width: 400px;
-        max-width:710px;
+        min-width: 250px;
+        max-width:700px;
       }
       .navbar-logo {
         min-height:25px;
@@ -271,6 +369,7 @@
       }
       .container-narrow {
         max-width: 740px;
+        
       }
       .narrow {
         max-width: 700px!important;
@@ -285,6 +384,8 @@
       .blue-highlight {
         background-color: rgb(229, 229, 229);
         padding: 12px;
+        display:block;
+        margin-top:10px;
         border-radius: 6px;
         border: 0px solid rgb(224, 224, 224);
         font-size: 1.04em!important;
@@ -296,8 +397,8 @@
         color: rgb(255, 133, 3);
       }
       .levelup {
-        background: linear-gradient(to right, #7c5b01, #c39f3e, #997002);
-        color: white;
+        background: linear-gradient(to right, #c0c0c0, #f3f3f3, #c0c0c0);
+        color: rgb(41, 41, 41)!important;
       }
       .video {
         width: 96%;
@@ -329,6 +430,13 @@
           sans-serif;
         font-size: 2.25em; 
         padding-bottom:10px; 
+      }
+      h4 {
+        font-family: "Antonio", "Roboto", "Arial", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: 1.45em; 
+        padding-bottom:10px; 
+        padding-left: 5px;
       }
       .hero-headline {
         font-size: 2.9em;
@@ -406,7 +514,7 @@
         
         <span class="subheader ">
           <span class="larger antonio hero-headline">Are Your Crypto Wallets <br class="break"/>& Keys Safe?</span><br>
-          <span class="narrow lineheight-medium"><span class="strong large red">There's a problem with crypto security. Most people don't think about until it's <span class="svg-underline">too late</span>.</span><br><span class="featured">Crypto seed and key backups are a <span class="underline">single point of failure</span>. If you lose access to your wallet seed phrases, private keys, or exchange logins, <span class="underline">you lose everything</span></span>.<br><br><span class="strong quote blue-highlight "><span class="strong">Encrypt<span class="orange-text">Fire</span></span> safeguards against hacks, loss, physical theft, destruction & human error</span></span>
+          <span class="narrow lineheight-medium"><span class="strong large red">There's a problem with crypto security. Most people don't think about until it's <span class="svg-underline">too late</span>.</span><br><span class="featured">Crypto seed and key backups are a <span class="underline">single point of failure</span>. If you lose access to your wallet seed phrases, private keys, or exchange logins, <span class="underline">you lose everything</span></span>.<br><span class="strong quote blue-highlight "><span class="strong">Encrypt<span class="orange-text">Fire</span></span> safeguards against hacks, loss, physical theft, destruction & human error</span></span>
             
         </span>
         
@@ -449,8 +557,8 @@
 
     <!-- Why You Need EncryptFire -->
     <section class="levelup py-5" id="features">
-      <div class="container text-white">
-        <h2 class="section-title pb-5 white antonio">🚨 Investors & Traders: Level Up</h2>
+      <div class="container ">
+        <h2 class="section-title pb-5  antonio">🚨 Investors & Traders: Level Up</h2>
         <div class="row">
           <div class="col-md-6">
             <h4>1️⃣ Eliminate a Single Point of Failure</h4>
@@ -743,21 +851,7 @@
       </div>
     </section>
 
-     <!-- Call to Action -->
-     <section class="py-3 text-center" id="cta">
-      <div class="container mb-5">
-        <h2 class="pt-0 antonio">🛡️ Take Control of Your Security</h2>
-        <p class=" card-textfont-weight-bold text-center block mb-5">
-          Always have a crypto backup and recovery plan.<br>
-          Make it decentralized and redundant.<br>
-          Make others aware of your plan.<br>
-          Automate it with a failsafe Deadman Switch.
-        </p>
-        
-        <!-- <p>Don’t wait until it’s too late. Protect your digital asset wealth.</p>
-        <a href="#" class="btn btn-success btn-lg orange">Get EncryptFire</a> -->
-      </div>
-    </section>
+     
 
      <!-- Offer Section -->
      <section class="bg-light pb-5" id="pricing">
