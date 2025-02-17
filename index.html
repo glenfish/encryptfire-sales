@@ -205,6 +205,11 @@ html {
       h2, h3{
         font-size: 2.7em!important; 
         }
+        p.narrow-col {
+        max-width: 740px!important;
+        width: 90%!important;
+        margin: auto;
+      }
       }
       .limited-offer {
         font-size: 50px!important;
@@ -240,6 +245,11 @@ html {
       }
       .limited-offer {
         font-size: 45px!important;
+      }
+      p.narrow-col {
+        max-width: 500px!important;
+        width: 90%!important;
+        margin: auto;
       }
       }
       @media (min-width:579px) and (max-width: 719.98px) {
@@ -281,6 +291,11 @@ html {
       }
       .card-disasters {
         margin: 0px;
+      }
+      p.narrow-col {
+        max-width: 500px!important;
+        width: 90%!important;
+        margin: auto;
       }
       }
       @media (min-width:0px) and (max-width: 578.98px) {
@@ -344,6 +359,13 @@ html {
       }
       .underline {
         text-decoration: underline!important;
+      }
+      .disasters-subheader {
+        font-size: 1.65rem!important;
+        color: #6b6b6b;
+      }
+      .offer-section {
+        background: linear-gradient(to bottom, #f4f7fa, #333) !important;
       }
       }
 
@@ -514,12 +536,6 @@ html {
         font-weight: 500;
         color: #414141
       }
-      .offer-section {
-        /* background-image: url('pattern-2.svg');
-        background-repeat: repeat;
-        background-position: bottom; */
-        border-top: 2px solid rgba(255, 205, 154, 0.2);
-      }
       .card-disasters > .card-body {
         background: linear-gradient(to top, #e0e0e0, #ffffff);
       }
@@ -527,7 +543,7 @@ html {
         color: #6b6b6b;
       }
       .disasters-subheader {
-        font-size: 36px;
+        font-size: 32px;
         color: #6b6b6b;
       }
     </style>
@@ -824,9 +840,9 @@ html {
         <h2 class="section-title antonio">
           🔥 CRYPTO DISASTERS 🔥<br><span class="disasters-subheader">Even The Experts Can Lose Everything</span>
         </h2>
-        <p class="text-center pb-4">
+        <p class="text-center pb-4 narrow-col">
           It's so easy to lose access to your digital assets. These are just a
-          few real-world examples ...<br>whether you're a big
+          few real-world examples - whether you're a big
           banking family, tech mogul, entrepreneur or IT specialist.
         </p>
 
