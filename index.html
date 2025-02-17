@@ -206,7 +206,9 @@ html {
         font-size: 2.7em!important; 
         }
       }
-
+      .limited-offer {
+        font-size: 52px!important;
+      }
       @media (min-width:925px) {
 
         h4 {
@@ -493,13 +495,20 @@ html {
         color: #414141
       }
       .offer-section {
-        background-image: url('pattern-2.svg');
+        /* background-image: url('pattern-2.svg');
         background-repeat: repeat;
-        background-position: bottom;
+        background-position: bottom; */
         border-top: 2px solid rgba(255, 205, 154, 0.2);
       }
       .card-disasters > .card-body {
         background: linear-gradient(to top, #e0e0e0, #ffffff);
+      }
+      .limited-offer {
+        color: #6b6b6b;
+      }
+      .disasters-subheader {
+        font-size: 36px;
+        color: #6b6b6b;
       }
     </style>
   </head>
@@ -671,7 +680,7 @@ html {
     <!-- What's Inside EncryptFire? (Cards) -->
     <section class="bg-light pb-5 mt-5" id="demo">
       <div class="container">
-        <h2 class="section-title antonio" >What’s Inside <span class="strong">Encrypt<span class="orange-text">Fire</span></span>?</h2>
+        <h2 class="section-title antonio" >What's Inside <span class="strong">Encrypt<span class="orange-text">Fire</span></span>?</h2>
         <p class="text-center mb-5">
           Security dashboard linking you to three specialized
           tools:
@@ -681,24 +690,26 @@ html {
           <div class="card-col mb-4 px-2">
             <div class="card h-100">
               <div class="card-body">
-                <h3 class="card-title">🏆 FreezeSeeds</h3>
-                <p><strong>What it does:</strong></p>
+                <h3 class="card-title">📱 FreezeSeeds</h3>
+                <p><span class="strong">What it does:</span></p>
                 <ul>
                   <li>
-                    Encodes &amp; encrypts BIP39 seed phrases for maximum
-                    security.
+                    Encodes &amp; encrypts hardware, software and paper wallets
                   </li>
-                  <li>Makes recovery easy yet theft-resistant.</li>
-                  <li>Generates unique seedmaps so you stay in control.</li>
+                  <li>Makes wallet recovery easy & highly secure.</li>
+                  <li>Creates unique seedmaps and encrypted seed codes.</li>
                 </ul>
-                <p><strong>Why you need it:</strong></p>
+                <p class="pt-4"><span class="strong">Why you need it:</span></p>
                 <ul>
                   <li>Never lose access to your wallets.</li>
                   <li>Disaster-proof your crypto holdings.</li>
                   <li>
                     Decentralized &amp; portable—store in multiple locations.
                   </li>
-                </ul><br class="break-button" /><br class="break-button"/>
+                  <li>
+                    Pass your wallets on to family if you pass away
+                  </li>
+                </ul>
                 <a href="https://freezeseeds.com" target="_blank" class="btn btn-outline-primary mt-3">Learn More</a>
               </div>
             </div>
@@ -708,25 +719,25 @@ html {
             <div class="card h-100">
               <div class="card-body">
                 <h3 class="card-title">🔑 FreezeKeys</h3>
-                <p><strong>What it does:</strong></p>
+                <p><span class="strong">What it does:</span></p>
                 <ul>
                   <li>Encodes private keys into a unique cipher map.</li>
                   <li>
-                    Encrypts &amp; splits key components for extreme security.
+                    Runs offline in browser so your data is never exposed.
                   </li>
                   <li>
-                    Works with paper wallets, hardware wallets, and software
-                    wallets.
+                    Works with any public / private key pair for any blockchain.
                   </li>
                 </ul>
-                <p><strong>Why you need it:</strong></p>
+                <p class="pt-4"><span class="strong">Why you need it:</span></p>
                 <ul>
-                  <li>Paper wallets are vulnerable—this fortifies them.</li>
+                  <li>Paper wallets are vulnerable - this fortifies them.</li>
                   <li>
-                    Trustless self-custody—you hold your keys, not a third
+                    Trustless self-custody. You hold your keys, not a third
                     party.
                   </li>
-                  <li>AES-256 encryption with multiple backup redundancy.</li>
+                  <li>AES-256 encryption.</li>
+                  <li>Restore access with your original private keys fast</li>
                 </ul>
                 <a href="https://freezekeys.com" target="_blank" class="btn btn-outline-primary mt-3">Learn More</a>
               </div>
@@ -736,23 +747,23 @@ html {
           <div class="card-col mb-4 px-2">
             <div class="card h-100">
               <div class="card-body">
-                <h3 class="card-title">🔐 FreezeAuth</h3>
-                <p><strong>What it does:</strong></p>
+                <h3 class="card-title">🌐 FreezeAuth</h3>
+                <p><span class="strong">What it does:</span></p>
                 <ul>
                   <li>
                     Turns your online logins into offline encrypted backups.
                   </li>
                   <li>
                     Works with email, crypto exchanges, banking, social media
-                    &amp; more.
+                    &amp; much more.
                   </li>
-                  <li>Includes a Deadman Switch for inheritance planning.</li>
+                  <li>Easy point and click cold storage for your online life</li>
                 </ul>
-                <p><strong>Why you need it:</strong></p>
+                <p class="pt-4"><span class="strong">Why you need it:</span></p>
                 <ul>
                   <li>Protect against account takeovers.</li>
                   <li>
-                    No more password manager risks—keep your logins offline.
+                    No more password manager risks — keep your logins offline.
                   </li>
                   <li>
                     Pass it on to your loved ones if the unexpected happens.
@@ -791,7 +802,7 @@ html {
     <section class="py-5 disaster-section">
       <div class="container">
         <h2 class="section-title antonio">
-          🔥 CRYPTO DISASTERS 🔥<br>Even The Experts Can Lose Everything
+          🔥 CRYPTO DISASTERS 🔥<br><span class="disasters-subheader">Even The Experts Can Lose Everything</span>
         </h2>
         <p class="text-center pb-4">
           It's so easy to lose access to your digital assets. These are just a
@@ -811,7 +822,7 @@ html {
             </p>
             <ul>
               <li>
-                Even the world’s most tech-savvy billionaire lost track of his
+                Even the world's most tech-savvy billionaire lost track of his
                 Bitcoin holdings. Without proper backup and redundancy, even
                 small amounts (which can increase in value over time) can be
                 permanently lost.
@@ -845,7 +856,7 @@ html {
             <h4 class="card-title">Gerald Cotten</h4>
             <ul>
               <li>
-                Founder of QuadrigaCX, one of Canada’s biggest crypto exchanges.
+                Founder of QuadrigaCX, one of Canada's biggest crypto exchanges.
               </li>
               <li>
                 Held $250 million in customer funds—but died unexpectedly with
@@ -893,27 +904,27 @@ html {
         <div class="card offer-card mb-5">
           <div class="card-body text-center">
             <h2 class="font-weight-bold mb-4">
-              <img src="./ef-logo.png" alt="EncryptFire Logo" class="img-fluid offer-logo" /><br />Limited Time Offer
+              <img src="./ef-logo.png" alt="EncryptFire Logo" class="img-fluid offer-logo" /><br /><span class="limited-offer">Special Limited Offer</span>
             </h2>
-            <p class="mb-5">
+            <div class="mb-5">
               PRICE: <span class="strike">$129 </span> &nbsp;Save 63%<br />
-              <strong class="highlight quote">DISCOUNTED PRICE: $47</strong> WITH PROMO CODE "FIRE"
+              <div class="highlight quote card strong ">DISCOUNTED PRICE: $47<br> WITH PROMO CODE <span class="orange white p-1">FIRE</span></div>
               
-            </p>
+            </div>
             <p class="mb-4  left smaller center">
               We believe everyone should have access to top-tier crypto
               security. For a limited time, get <span class="strong">Encrypt<span class="orange-text">Fire</span></span> at an exclusive
               discounted price before it returns to full price.
             </p>
             
-            <a href="#" class="btn btn-primary btn-lg orange"
+            <a href="#" class="btn btn-primary btn-lg orange "
               >Get EncryptFire</a
             ><strong><br><br>100% Risk-Free<br>60-Day Money-Back Guarantee</strong>
             <p class="my-5">
               
               <div class="center smaller center"
-                >We stand behind <span class="strong">Encrypt<span class="orange-text">Fire</span></span>. If you’re not completely
-                satisfied, you can receive a full refund up to 60 days no
+                >We stand behind <span class="strong">Encrypt<span class="orange-text">Fire</span></span>. If you're not completely
+                satisfied, you can claim a full refund up to 60 days no
                 questions asked.</div><br>
             </p>
           </div>
