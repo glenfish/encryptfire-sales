@@ -40,10 +40,11 @@
         width: 90%!important;
         margin: auto;
       }
-      }
       .limited-offer {
         font-size: 50px!important;
       }
+      }
+      
       @media (min-width:925px) {
 
         h4 {
@@ -97,7 +98,7 @@
           background-image: none!important;
       } */
       .featured {
-        font-size: 1.0em!important;
+        font-size: 1.15em!important;
         font-weight: 500;
         color: #414141
       }
@@ -132,6 +133,10 @@
         position: relative;
         top: -50px;
       }
+      .break {
+        display: inline-block!important;
+        
+      }
       }
       @media (min-width:0px) and (max-width: 579.98px) {
         .hero-headline {
@@ -158,7 +163,9 @@
         color: #414141
       }
       .screenshot {
-        border: 3px solid white!important;
+        border: 2px solid white!important;
+        width: 100vw!important;
+        border-radius: 0!important;
       }
       .large {
         font-size: 1.0em!important;
@@ -219,5 +226,12 @@
         border: solid 1px rgb(67, 67, 67);;
         position:relative;
         top:20px;
+      }
+      .highlight {
+        /* width: 100vw!important; */
+        /* margin: 0px!important; */
+        padding:4px!important;
+        display:block!important;
+        text-align: center;
       }
       }
