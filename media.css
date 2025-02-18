@@ -128,7 +128,7 @@
         width: 90%!important;
         margin: auto;
       }
-      #pricing, #features, #demo {
+      #pricing, #features, #demo, #video {
         visibility: hidden;
         position: relative;
         top: -50px;
@@ -218,7 +218,7 @@
       .footer {
         line-height:2.5em;
       }
-      #pricing, #features, #demo {
+      #pricing, #features, #demo, #video {
         visibility: hidden;
         position: relative;
         top: -50px;
