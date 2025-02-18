@@ -1,0 +1,216 @@
+
+      /* MEDIA QUERIES ///////////////////////////////////////////////////////////////////*/
+
+      /* Adjusting the grid breakpoint for cards: show cards in a row only on large screens */
+      @media (max-width: 991.98px) {
+        .card-col {
+          flex: 0 0 100%;
+          max-width: 100%;
+        }
+
+        
+      }
+      @media (min-width: 992px) {
+        .card-col {
+          flex: 0 0 33.333333%;
+          max-width: 33.333333%;
+        }
+        .break-button {
+          display: inline-block!important;
+          
+        }
+        
+      }
+      @media (min-width:1024px) {
+        .hero-headline {
+        font-size: 3.0em!important;
+        position: relative;
+        top: -20px;
+      }
+      .large {
+        font-size: 1.825em!important;
+        line-height:normal;
+        display:block;
+      }
+      h2, h3{
+        font-size: 2.7em!important; 
+        }
+        p.narrow-col {
+        max-width: 740px!important;
+        width: 90%!important;
+        margin: auto;
+      }
+      }
+      .limited-offer {
+        font-size: 50px!important;
+      }
+      @media (min-width:925px) {
+
+        h4 {
+          font-size: 1.725em!important; 
+        }
+       }
+
+      @media (min-width:720px) and (max-width: 1023.89px) {
+        .hero-headline {
+        font-size: 2.4em!important;
+        position: relative;
+        top: -20px;
+      }
+      /* .svg-underline {
+        background-image: none!important;
+      } */
+      .featured {
+        font-size: 1.08em!important;
+        font-weight: 500;
+        color: #414141
+      }
+      .large {
+        font-size: 1.625em!important;
+        line-height:normal;
+        display:block;
+      }
+      h2, h3 {
+        font-size: 2.2em!important; 
+      }
+      .limited-offer {
+        font-size: 45px!important;
+      }
+      p.narrow-col {
+        max-width: 500px!important;
+        width: 90%!important;
+        margin: auto;
+      }
+      }
+      @media (min-width:580px) and (max-width: 719.98px) {
+        .hero-headline {
+        font-size: 2.0em!important;
+        position: relative;
+        top: -20px;
+      }
+      .gray-highlight {
+          width: 100%!important;
+          display:block;
+
+        }
+        /* .svg-underline {
+          background-image: none!important;
+      } */
+      .featured {
+        font-size: 1.0em!important;
+        font-weight: 500;
+        color: #414141
+      }
+      .screenshot {
+        border: 9px solid white!important;
+      }
+      .large {
+        font-size: 1.6em!important;
+        line-height:normal;
+        display:block;
+      }
+      .offer-card {
+        padding: 20px 0px!important;
+        font-size: 1.35em!important;
+      }
+      .limited-offer {
+        font-size: 40px!important;
+      }
+      h2, h3 {
+        font-size: 2.0em!important; 
+      }
+      .card-disasters {
+        margin: 0px;
+      }
+      p.narrow-col {
+        max-width: 500px!important;
+        width: 90%!important;
+        margin: auto;
+      }
+      #pricing, #features, #demo {
+        visibility: hidden;
+        position: relative;
+        top: -50px;
+      }
+      }
+      @media (min-width:0px) and (max-width: 579.98px) {
+        .hero-headline {
+        font-size: 2.2em!important;
+        position: relative;
+        top: -20px;
+        line-height:normal!important;
+        }
+        .break {
+          display: inline-block!important;
+          
+        }
+        .gray-highlight {
+          width: 100%!important;
+          display:block;
+
+        }
+        .svg-underline {
+          background-image: none!important;
+      }
+      .featured {
+        font-size: 1.15em!important;
+        font-weight: 500;
+        color: #414141
+      }
+      .screenshot {
+        border: 3px solid white!important;
+      }
+      .large {
+        font-size: 1.0em!important;
+        line-height:normal;
+        /* display:block; */
+
+      }
+      .offer-card {
+        padding: 30px 0px!important;
+        font-size: 1.25em!important;
+      }
+      .limited-offer {
+        font-size: 30px!important;
+      }
+      h4 {
+        margin-top: 20px;
+        font-size: 1.45em!important; 
+
+      }
+      h2, h3 {
+        font-size: 1.825em!important; 
+      }
+      .card-disasters {
+        margin: 0px;
+      }
+      .smallscreen {
+        font-size: 130%!important;
+        margin-bottom: 0px!important;
+        display:block;
+        line-height: 1.5!important;
+        position:relative;
+        top:10px;
+      }
+      .underline {
+        text-decoration: underline!important;
+      }
+      .disasters-subheader {
+        font-size: 1.55rem!important;
+        color: #6b6b6b;
+      }
+      .offer-section {
+        background: linear-gradient(to bottom, #f4f7fa, #333) !important;
+      }
+      .hide-on-phones {
+        display: none;
+      }
+      .footer {
+        line-height:2.5em;
+      }
+      #pricing, #features, #demo {
+        visibility: hidden;
+        position: relative;
+        top: -50px;
+      }
+      }
