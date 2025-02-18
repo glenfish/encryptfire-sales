@@ -286,6 +286,11 @@ html {
         width: 90%!important;
         margin: auto;
       }
+      #pricing, #features, #demo {
+        visibility: hidden;
+        position: relative;
+        top: -50px;
+      }
       }
       @media (min-width:0px) and (max-width: 578.98px) {
         .hero-headline {
@@ -361,6 +366,11 @@ html {
       }
       .footer {
         line-height:2.5em;
+      }
+      #pricing, #features, #demo {
+        visibility: hidden;
+        position: relative;
+        top: -50px;
       }
       }
 
@@ -590,6 +600,6 @@ html {
   #pricing, #features, #demo {
     visibility: hidden;
     position: relative;
-    top: -50px;
+    top: 0px;
   }
   
