@@ -587,4 +587,9 @@ html {
   html {
     scroll-behavior: smooth;
   }
+  #pricing, #features, #demo {
+    visibility: hidden;
+    position: relative;
+    top: -30px;
+  }
   
