@@ -79,7 +79,7 @@ html {
         max-width: 1000px;
         
       }
-      #pricing, #features, #demo {
+      #pricing, #features, #demo, #video {
         visibility: hidden;
         position: relative;
         top: 0px;
