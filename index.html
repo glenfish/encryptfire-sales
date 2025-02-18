@@ -469,7 +469,8 @@
       </div>
     </footer>
   
-
+    <div id="topBtn" onclick="topFunction()"><img src="./up.svg" alt="Up Arrow" /></div>
+    
     <!-- Bootstrap JS and dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
@@ -489,7 +490,22 @@
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
         }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const navLinks = document.querySelectorAll(".nav-link");
+            const navbarCollapse = document.querySelector(".navbar-collapse");
+
+            navLinks.forEach(link => {
+                link.addEventListener("click", function () {
+                    if (navbarCollapse.classList.contains("show")) {
+                        new bootstrap.Collapse(navbarCollapse).hide();
+                    }
+                });
+            });
+        });
+
     </script>
-  <div id="topBtn" onclick="topFunction()"><img src="./up.svg" alt="Up Arrow" /></div>
+    
+  
   </body>
 </html>
