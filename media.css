@@ -213,4 +213,8 @@
         position: relative;
         top: -50px;
       }
+      .note {
+        background-color:#333;
+        color: white;
+      }
       }
