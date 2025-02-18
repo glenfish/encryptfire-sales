@@ -215,6 +215,9 @@
       }
       .note {
         background-color:#333;
-        color: white;
+        color: rgb(172, 172, 172);
+        border: solid 1px rgb(67, 67, 67);;
+        position:relative;
+        top:20px;
       }
       }

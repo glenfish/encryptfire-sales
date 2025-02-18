@@ -23,6 +23,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+html {
+  scroll-behavior: smooth;
+}
 html, body {
     height: 100%!important;
 }
@@ -392,9 +395,17 @@ html {
       background-color: #0056b3;
       /* background-color: rgba(255, 255, 255, 0.8); */
   }
-  html {
-    scroll-behavior: smooth;
+  .note {
+    background-color:transparent;
+    color: rgb(117, 117, 117);
+    font-size: 1.45em;
   }
+  .bigbutton {
+    padding:20px!important;
+    min-width:250px;
+    font-size: 1.2em;
+  }
+
 
 
       
