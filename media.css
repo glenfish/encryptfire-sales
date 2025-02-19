@@ -249,3 +249,20 @@
         border-radius: 8px;
       }
       }
+
+
+
+/* For larger viewports, cap the video size to preserve a 16:9 ratio at 600px height */
+@media (min-width: 1067px) {
+  .custom-video-dialog {
+    /* 600px height * (16/9) ≈ 1066.67px width */
+    width: 1066.67px;
+    max-width: 1066.67px;
+    margin: auto; /* centers the modal horizontally */
+    
+  }
+  .custom-video-modal .modal-content {
+    height: 600px;
+  }
+}
+

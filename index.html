@@ -77,170 +77,9 @@
       </div>
     </section>
 
-    <!-- Video Section -->
-<div id="video"></div>
-<section>
-  <div class="mt-3 container">
-    <div class="row">
-      <!-- Left Column: Single large video thumbnail -->
-      <div class="col-md-6">
-        <div
-          class="video-thumbnail"
-          data-bs-toggle="modal"
-          data-bs-target="#videoModal1"
-          style="cursor: pointer;"
-        >
-          <img
-            src="v1.png"
-            alt="Video 1"
-            class="img-fluid"
-          />
-        </div>
-      </div>
-      <!-- Right Column: Two stacked video thumbnails -->
-      <div class="col-md-6">
-        <div class="row">
-          <div class="col-12 mb-3">
-            <div
-              class="video-thumbnail"
-              data-bs-toggle="modal"
-              data-bs-target="#videoModal2"
-              style="cursor: pointer;"
-            >
-              <img
-                src="v2.png"
-                alt="Video 2"
-                class="img-fluid"
-              />
-            </div>
-          </div>
-          <div class="col-12">
-            <div
-              class="video-thumbnail"
-              data-bs-toggle="modal"
-              data-bs-target="#videoModal3"
-              style="cursor: pointer;"
-            >
-              <img
-                src="v3.png"
-                alt="Video 3"
-                class="img-fluid"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+   
 
-  <!-- Modal for Video 1 -->
-  <div
-    class="modal fade"
-    id="videoModal1"
-    tabindex="-1"
-    aria-labelledby="videoModal1Label"
-    aria-hidden="true"
-  >
-    <div class="modal-dialog modal-dialog-centered modal-fullscreen">
-      <div class="modal-content bg-dark">
-        <div class="modal-header border-0">
-          <button
-            type="button"
-            class="btn-close btn-close-white"
-            data-bs-dismiss="modal"
-            aria-label="Close"
-          ></button>
-        </div>
-        <div class="modal-body p-0">
-          <div class="ratio ratio-16x9">
-            <iframe
-              src="https://www.youtube.com/embed/t4GBFQFpXnQ?si=g4IoI-jXHe6vA_12?autoplay=1"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <!-- Modal for Video 2 -->
-  <div
-    class="modal fade"
-    id="videoModal2"
-    tabindex="-1"
-    aria-labelledby="videoModal2Label"
-    aria-hidden="true"
-  >
-    <div class="modal-dialog modal-dialog-centered modal-fullscreen">
-      <div class="modal-content bg-dark">
-        <div class="modal-header border-0">
-          <button
-            type="button"
-            class="btn-close btn-close-white"
-            data-bs-dismiss="modal"
-            aria-label="Close"
-          ></button>
-        </div>
-        <div class="modal-body p-0">
-          <div class="ratio ratio-16x9">
-            <iframe
-              src="https://www.youtube.com/embed/kISPbLPyg0Q?si=k7a2OmPjP6RBwGxt?autoplay=1"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal for Video 3 -->
-  <div
-    class="modal fade"
-    id="videoModal3"
-    tabindex="-1"
-    aria-labelledby="videoModal3Label"
-    aria-hidden="true"
-  >
-    <div class="modal-dialog modal-dialog-centered modal-fullscreen">
-      <div class="modal-content bg-dark">
-        <div class="modal-header border-0">
-          <button
-            type="button"
-            class="btn-close btn-close-white"
-            data-bs-dismiss="modal"
-            aria-label="Close"
-          ></button>
-        </div>
-        <div class="modal-body p-0">
-          <div class="ratio ratio-16x9">
-            <iframe
-              src="https://www.youtube.com/embed/bBWxBHbwlVw?si=4QWY3wF64mCau8tW?autoplay=1"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Optional JavaScript to stop video playback when modal is closed -->
-<script>
-  ['videoModal1', 'videoModal2', 'videoModal3'].forEach(function(modalID) {
-    var modalEl = document.getElementById(modalID);
-    modalEl.addEventListener('hidden.bs.modal', function () {
-      var iframe = modalEl.querySelector('iframe');
-      // Reset the iframe src attribute to stop the video
-      iframe.src = iframe.src;
-    });
-  });
-</script>
 
 
     
@@ -330,12 +169,11 @@
                 </ul>
                 <p class="pt-4"><span class="strong">Why you need it:</span></p>
                 <ul>
-                  <li>Protect against account takeovers</li>
                   <li>
-                    No more password manager risks — keep your logins offline
+                    No more password manager risks — keep a permanent copy of yuour logins offline
                   </li>
                   <li>
-                    Pass it on to your loved ones if the unexpected happens
+                    Pass it on to your loved ones if the unexpected happens. They'll know how to access your accounts.
                   </li>
                 </ul>
                 <a href="https://freezeauth.com" target="_blank" class="btn btn-outline-primary mt-3">Learn More</a>
@@ -346,17 +184,226 @@
       </div>
     </section>
 
-    <section>
-      <div class="container mb-5 mt-4">
-        <div class="text-center">
-          <a href="#pricing" class="btn btn-primary btn-lg bigbutton "
-              >Download EncryptFire</a>
+     <!-- Video Section -->
+<div id="video"></div>
+<section>
+  <div class="mt-3 container ">
+    <div class="row">
+      
+      <!-- Left Column: Two stacked video thumbnails -->
+      <div class="col-md-6 mb-3">
+        <div class="row">
+          <div class="col-12 mb-3 d-flex justify-content-center">
+            <div
+              class="video-thumbnail"
+              data-bs-toggle="modal"
+              data-bs-target="#videoModal0"
+              style="cursor: pointer;"
+            >
+            <div class="video-thumbnail position-relative" data-bs-toggle="modal" data-bs-target="#videoModal0" style="cursor: pointer;"></div>
+              <img
+                src="welcome-video.png"
+                alt="Welcome"
+                class="img-fluid"
+              />
+              <!-- Play Button -->
+              <svg class="play-button" viewBox="0 0 100 100" fill="white">
+                <circle cx="50" cy="50" r="40" fill="rgba(0, 0, 0, 0.6)" />
+                <polygon points="40,30 70,50 40,70" fill="white" />
+              </svg>
+            </div>
+          </div>
+          <div class="col-12 d-flex justify-content-center">
+            <div
+              class="video-thumbnail"
+              data-bs-toggle="modal"
+              data-bs-target="#videoModal1"
+              style="cursor: pointer;"
+            >
+            <div class="video-thumbnail position-relative" data-bs-toggle="modal" data-bs-target="#videoModal1" style="cursor: pointer;"></div>
+              <img
+                src="v1.png"
+                alt="Video 1"
+                class="img-fluid"
+              />
+              
+              
+              <!-- Play Button -->
+              <svg class="play-button" viewBox="0 0 100 100" fill="white">
+                <circle cx="50" cy="50" r="40" fill="rgba(0, 0, 0, 0.6)" />
+                <polygon points="40,30 70,50 40,70" fill="white" />
+              </svg>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
+      <!-- Right Column: Two stacked video thumbnails -->
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-12 mb-3 d-flex justify-content-center">
+            <div
+              class="video-thumbnail"
+              data-bs-toggle="modal"
+              data-bs-target="#videoModal2"
+              style="cursor: pointer;"
+            >
+            <div class="video-thumbnail position-relative" data-bs-toggle="modal" data-bs-target="#videoModal2" style="cursor: pointer;"></div>
+              <img
+                src="v2.png"
+                alt="Video 2"
+                class="img-fluid"
+              />
+              <!-- Play Button -->
+              <svg class="play-button" viewBox="0 0 100 100" fill="white">
+                <circle cx="50" cy="50" r="40" fill="rgba(0, 0, 0, 0.6)" />
+                <polygon points="40,30 70,50 40,70" fill="white" />
+              </svg>
+            </div>
+          </div>
+          <div class="col-12 d-flex justify-content-center">
+            <div
+              class="video-thumbnail"
+              data-bs-toggle="modal"
+              data-bs-target="#videoModal3"
+              style="cursor: pointer;"
+            >
+            <div class="video-thumbnail position-relative" data-bs-toggle="modal" data-bs-target="#videoModal3" style="cursor: pointer;"></div>
+              <img
+                src="v3.png"
+                alt="Video 3"
+                class="img-fluid"
+              />
+              <!-- Play Button -->
+              <svg class="play-button" viewBox="0 0 100 100" fill="white">
+                <circle cx="50" cy="50" r="40" fill="rgba(0, 0, 0, 0.6)" />
+                <polygon points="40,30 70,50 40,70" fill="white" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal for Video 0 -->
+<div class="modal fade custom-video-modal" id="videoModal0" tabindex="-1" aria-labelledby="videoModal0Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered custom-video-dialog">
+    <div class="modal-content bg-dark">
+      <div class="modal-header border-0">
+        <button
+          type="button"
+          class="btn-close btn-close-white"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body p-0">
+        <!-- Bootstrap's ratio class maintains the 16:9 aspect ratio -->
+        <div class="ratio embed-responsive embed-responsive-16by9">
+          <iframe
+            src="https://www.youtube.com/embed/hYmC-IE7vS0?si=vJbGKP0Mhg7Sqb-n?autoplay=1"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Modal for Video 1 -->
+<div class="modal fade custom-video-modal" id="videoModal1" tabindex="-1" aria-labelledby="videoModal1Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered custom-video-dialog">
+    <div class="modal-content bg-dark">
+      <div class="modal-header border-0">
+        <button
+          type="button"
+          class="btn-close btn-close-white"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body p-0">
+        <!-- Bootstrap's ratio class maintains the 16:9 aspect ratio -->
+        <div class="ratio embed-responsive embed-responsive-16by9">
+          <iframe
+            src="https://www.youtube.com/embed/t4GBFQFpXnQ?si=g4IoI-jXHe6vA_12?autoplay=1"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- new modal for video 2 -->
+<div class="modal fade custom-video-modal" id="videoModal2" tabindex="-1" aria-labelledby="videoModal2Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered custom-video-dialog">
+    <div class="modal-content bg-dark">
+      <div class="modal-header border-0">
+        <button
+          type="button"
+          class="btn-close btn-close-white"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body p-0">
+        <!-- Bootstrap's ratio class maintains the 16:9 aspect ratio -->
+        <div class="ratio embed-responsive embed-responsive-16by9">
+          <iframe
+            src="https://www.youtube.com/embed/kISPbLPyg0Q?si=k7a2OmPjP6RBwGxt?autoplay=1"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+   <!-- New Modal for Video 3 -->
+<div class="modal fade custom-video-modal" id="videoModal3" tabindex="-1" aria-labelledby="videoModal3Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered custom-video-dialog">
+    <div class="modal-content bg-dark">
+      <div class="modal-header border-0">
+        <button
+          type="button"
+          class="btn-close btn-close-white"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body p-0">
+        <!-- Bootstrap's ratio class maintains the 16:9 aspect ratio -->
+        <div class="ratio embed-responsive embed-responsive-16by9 ">
+          <iframe
+            src="https://www.youtube.com/embed/bBWxBHbwlVw?si=4QWY3wF64mCau8tW?autoplay=1"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+
+  
+</section>
+
+
+    
 
     <!-- Introduction -->
-    <section class="pb-5 mb-5">
+    <section class="pb-5 mb-5 mt-5">
       <div class="container container-narrow">
         <h2 class="antonio-h2"><span class="hide-on-phones">Do You </span>Trust Your Crypto Backup?</h2>
         <p>
@@ -673,6 +720,19 @@
         });
 
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      ['videoModal0','videoModal1', 'videoModal2', 'videoModal3'].forEach(function(modalID) {
+        var modalEl = document.getElementById(modalID);
+        modalEl.addEventListener('hidden.bs.modal', function () {
+          var iframe = modalEl.querySelector('iframe');
+          // Reset the iframe src attribute to stop the video
+          iframe.src = iframe.src;
+        });
+      });
+    </script>
+
     
   
   </body>
