@@ -221,7 +221,7 @@
       #pricing, #features, #demo, #video {
         visibility: hidden;
         position: relative;
-        top: -80px;
+        top: -120px;
       }
       .note {
         background-color:#333;
