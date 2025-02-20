@@ -173,7 +173,7 @@
       }
       .screenshot {
         border: 2px solid white!important;
-        width: 100vw!important;
+        width: 100%!important;
         border-radius: 0!important;
       }
       .large {
@@ -269,7 +269,7 @@
         margin-top: 20px;
         padding: 20px 0px!important;
       }
-  
+
       }
 
 

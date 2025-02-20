@@ -106,6 +106,9 @@ html {
         padding: 10px;
         background-color: rgb(255, 255, 255);
       }
+      .logo-container {
+        height:30px;
+      }
       .hero .logo img {
         position: relative;
         top: 5px;
@@ -240,6 +243,14 @@ html {
       .navbar-logo {
         min-height:25px;
         max-height:30px;
+        /* margin-left: 2px; */
+        /* position:relative;
+        left: 140px; */
+      }
+      .navbar-icon {
+        height:30px;
+        position:relative;
+        left: 0px;
       }
       .home-link {
         padding-left: 0;
