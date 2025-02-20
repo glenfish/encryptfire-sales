@@ -137,6 +137,11 @@
         display: inline-block!important;
         
       }
+      .quote-price {
+        font-size: 1.2em;
+        color: #333;
+        margin-top: 20px;
+      }
       }
       @media (min-width:0px) and (max-width: 579.98px) {
         .quote-bigger {
@@ -248,6 +253,24 @@
         margin: 10px auto;
         border-radius: 8px;
       }
+      .pricecard {
+        
+        width:375px!important;
+        display:block;
+        margin: auto;
+        
+      }
+      .pricecard {
+        padding: 10px!important;
+        display:block;
+        margin: 40px auto 0 auto;
+      }
+      .quote-price {
+        font-size: 1.2em;
+        color: #333;
+        margin-top: 20px;
+      }
+  
       }
 
 
