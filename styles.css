@@ -84,6 +84,10 @@ html {
         position: relative;
         top: 0px;
       }
+      .pricing {
+        background-color: #f9f9f9!important;
+        border: 1px solid #d6d6d6!important;
+      }
       /* Hero/Header Section */
       .hero {
         background: linear-gradient(to bottom, #dfdfdf, #f4f7fa);

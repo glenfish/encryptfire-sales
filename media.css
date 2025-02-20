@@ -254,18 +254,15 @@
         margin: 10px auto;
         border-radius: 8px;
       }
+
       .pricecard {
-        
-        width:375px!important;
-        display:block;
-        margin: auto;
-        
-      }
-      .pricecard {
+        width:100%!important;
         padding: 10px!important;
         display:block;
         margin: 40px auto 0 auto;
+        min-width: 320px;
       }
+
       .quote-price {
         font-size: 1.2em;
         color: #333;
