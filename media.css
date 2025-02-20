@@ -131,12 +131,12 @@
       #features, #demo, #video {
         visibility: hidden;
         position: relative;
-        top: -140px;
+        top: -180px;
       }
       #pricing {
         visibility: hidden;
         position: relative;
-        top: -85px;
+        top: -100px;
       }
       .break {
         display: inline-block!important;
@@ -229,10 +229,15 @@
       .footer {
         line-height:2.5em;
       }
-      #features, #demo, #video {
+      #features, #video {
         visibility: hidden;
         position: relative;
-        top: -140px;
+        top: -170px;
+      }
+      #demo {
+        visibility: hidden;
+        position: relative;
+        top: -150px;
       }
       #pricing {
         visibility: hidden;
