@@ -224,10 +224,15 @@
       .footer {
         line-height:2.5em;
       }
-      #pricing, #features, #demo, #video {
+      #features, #demo, #video {
         visibility: hidden;
         position: relative;
         top: -140px;
+      }
+      #pricing {
+        visibility: hidden;
+        position: relative;
+        top: -100px;
       }
       .note {
         background-color:#333;
