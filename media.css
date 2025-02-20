@@ -294,6 +294,9 @@
         position:relative;
         top:-5px;
       }
+      .headline-icon {
+        top:12px;
+      }
 
       }
 
