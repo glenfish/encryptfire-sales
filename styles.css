@@ -133,7 +133,7 @@ html {
         color: #333;
         text-align: center;
         font-size: 2.5em;;
-        padding-top:30px;
+        padding-top:10px;
       }
       .white {
         color: white!important;
@@ -389,7 +389,7 @@ html {
     }
       
       .card-disasters > .card-body {
-        background: linear-gradient(to top, #e0e0e0, #ffffff);
+        background: linear-gradient(to top, #f3f3f3, #ffffff);
       }
       .limited-offer {
         color: #6b6b6b;
@@ -454,6 +454,9 @@ html {
   height: 60px;
   transform: translate(-50%, -50%);
   pointer-events: none; /* Ensures click passes through to the thumbnail */
+}
+.border-bottom {
+  border-bottom: 1px solid #e7e7e7;
 }
 
 
