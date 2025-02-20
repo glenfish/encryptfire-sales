@@ -287,16 +287,14 @@
       .headline-spacer {
         padding-left: 55px!important;
         position:relative;
-        top:-5px;
+        top:-3px;
       }
       .headline-spacer-narrow {
         padding-left: 45px!important;
         position:relative;
-        top:-5px;
+        top:-3px;
       }
-      .headline-icon {
-        top:14px!important;
-      }
+
 
       }
 
