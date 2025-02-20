@@ -128,10 +128,15 @@
         width: 90%!important;
         margin: auto;
       }
-      #pricing, #features, #demo, #video {
+      #features, #demo, #video {
         visibility: hidden;
         position: relative;
-        top: -50px;
+        top: -140px;
+      }
+      #pricing {
+        visibility: hidden;
+        position: relative;
+        top: -85px;
       }
       .break {
         display: inline-block!important;
@@ -232,7 +237,7 @@
       #pricing {
         visibility: hidden;
         position: relative;
-        top: -100px;
+        top: -85px;
       }
       .note {
         background-color:#333;
