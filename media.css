@@ -284,6 +284,16 @@
         margin-top: 20px;
         padding: 20px 0px!important;
       }
+      .headline-spacer {
+        padding-left: 55px!important;
+        position:relative;
+        top:-5px;
+      }
+      .headline-spacer-narrow {
+        padding-left: 45px!important;
+        position:relative;
+        top:-5px;
+      }
 
       }
 

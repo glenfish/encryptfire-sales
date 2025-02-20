@@ -458,6 +458,36 @@ html {
 .border-bottom {
   border-bottom: 1px solid #e7e7e7;
 }
+.headline-icon {
+  
+  background-repeat: no-repeat;
+  /* display: inline-block; */
+  width: auto; 
+  height: 60px; 
+  background-size: contain;
+  position:relative;
+  top:10px;
+}
+.fs-icon {
+  background-image: url('./freezeseeds.png');
+}
+.fk-icon {
+  background-image: url('./freezekeys.png');
+}
+.fa-icon {
+  background-image: url('./freezeauth.png');
+}
+.headline-spacer {
+  padding-left: 70px!important;
+  position:relative;
+  top:-5px;
+}
+.headline-spacer-narrow {
+  padding-left: 60px!important;
+  position:relative;
+  top:-5px;
+}
+
 
 
 
