@@ -533,6 +533,11 @@ audio {
   width: 250px;
   height: 30px;
 }
+.modal-content {
+  background-color: transparent!important;
+  border: 0px!important
+  
+}
 
 
 
