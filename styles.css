@@ -92,7 +92,7 @@ html {
       .hero {
         background: linear-gradient(to bottom, #dfdfdf, #f4f7fa);
         color: #fff;
-        padding: 50px 0; /* Reduced height */
+        padding: 30px; /* Reduced height */
         text-align: center;
         
       }
@@ -265,10 +265,11 @@ html {
         
       }
       .narrow {
-        max-width: 700px!important;
+        max-width: 740px!important;
         display: block;
         margin: auto;
         font-size: 85%!important;
+
       }
       .highlight {
         background-color: rgb(255, 255, 255);
@@ -289,7 +290,7 @@ html {
         background-color: rgb(255, 255, 255);
         padding: 12px;
         display:block;
-        margin-top:10px;
+        margin-top:20px;
         border-radius: 6px;
         border: 0px solid rgb(224, 224, 224);
         font-size: 1.04em!important;
@@ -326,7 +327,7 @@ html {
         font-size: 1.27em!important;
         font-style: italic;
         color: #333;
-        margin-top: 20px;
+        margin-top: 10px;
       }
       .red {
         color: rgb(204, 3, 3);
@@ -335,7 +336,7 @@ html {
         text-decoration: underline;
       }
       .lineheight-medium {
-        line-height: 2;
+        line-height: 1.5;
       }
       .antonio {
         font-family: "Antonio", "Roboto", "Arial", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
