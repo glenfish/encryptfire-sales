@@ -264,12 +264,12 @@
       #demo {
         visibility: hidden;
         position: relative;
-        top: -150px;
+        top: -170px;
       }
       #pricing {
         visibility: hidden;
         position: relative;
-        top: -85px;
+        top: -110px;
       }
       .note {
         background-color:#333;
