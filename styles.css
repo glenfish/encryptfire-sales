@@ -288,12 +288,13 @@ html {
       }
       .white-highlight {
         background-color: rgb(255, 255, 255);
-        padding: 12px;
+        padding: 8px 4px;
         display:block;
-        margin-top:20px;
+        margin:20px auto 0 auto;
         border-radius: 6px;
         border: 0px solid rgb(224, 224, 224);
         font-size: 1.04em!important;
+        max-width:700px;
       }
       .strong {
         font-weight: bold;
