@@ -492,6 +492,18 @@ html {
 .wide-break {
   display:none;
 }
+.curlyquotes {
+  font-weight: bold
+  
+}
+.largequote {
+  font-size: 1.6em;
+  line-height: 1.6;
+  
+}
+.italic {
+  font-style: italic;
+}
 
 
 
