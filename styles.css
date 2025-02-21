@@ -517,14 +517,15 @@ html {
 }
 audio {
   position:relative;
-  top:-3px;
-  border: 4px solid rgb(249, 146, 43);
-  border-radius:30px;
-  padding:8px;
+  top:-4px;
+  border: 2px solid rgb(19, 143, 231);
+  border-radius:10px;
+  padding:2px;
   background-color: transparent;
-  margin: 5px auto;
+  margin: 1px auto;
   width: 100%;
-  max-width: 300px;
+  width: 250px;
+  height: 35px;
 }
 
 
