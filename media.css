@@ -152,14 +152,14 @@
         margin: auto;
       }
       #features, #demo, #video {
-        /* visibility: hidden;
+        visibility: hidden;
         position: relative;
-        top: -180px; */
+        top: 100px;
       }
       #pricing {
-        /* visibility: hidden;
+        visibility: hidden;
         position: relative;
-        top: -100px; */
+        top: 120px;
       }
       .break {
         display: inline-block!important;
@@ -263,17 +263,17 @@
       #features, #video {
         visibility: hidden;
         position: relative;
-        top: -170px;
+        top: -70px;
       }
       #demo {
         visibility: hidden;
         position: relative;
-        top: -170px;
+        top: -100px;
       }
       #pricing {
         visibility: hidden;
         position: relative;
-        top: -110px;
+        top: -20px;
       }
       .note {
         background-color:#333;

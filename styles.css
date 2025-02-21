@@ -83,7 +83,7 @@ html {
       #pricing, #features, #demo, #video {
         visibility: hidden;
         position: relative;
-        top: 0px;
+        top: -80px;
       }
       .pricing {
         background-color: #f9f9f9!important;
