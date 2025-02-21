@@ -151,7 +151,7 @@
         width: 90%!important;
         margin: auto;
       }
-      #features, #demo, #video {
+      #features, #inside, #video {
         visibility: hidden;
         position: relative;
         top: 100px;
@@ -265,7 +265,7 @@
         position: relative;
         top: -90px;
       }
-      #demo {
+      #inside {
         visibility: hidden;
         position: relative;
         top: -100px;
