@@ -165,8 +165,8 @@ html {
       .btn-primary,
       .btn-success,
       a.btn-outline-primary {
-        border-radius: 50px;
-        padding: 10px 20px;
+        border-radius: 30px;
+        padding: 10px 10px;
       }
       .break-button {
           display: none;
@@ -432,9 +432,9 @@ html {
   }
   .bigbutton {
     padding:20px!important;
-    min-width:250px!important;
+    /* min-width:250px!important; */
     font-size: 1.2em!important;
-    min-height: 40px!important;
+    /* height: 30px!important; */
   }
   /* By default on smaller screens, make the modal dialog full width */
 .custom-video-dialog {
@@ -487,6 +487,9 @@ html {
   padding-left: 60px!important;
   position:relative;
   top:-5px;
+}
+.wide-break {
+  display:none;
 }
 
 
