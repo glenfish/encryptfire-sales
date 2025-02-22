@@ -221,7 +221,7 @@ html {
         font-weight: bold;
       }
       .large {
-        font-size: 1.05em;
+        font-size: 1.4em;
         font-weight: bold;
       }
       .smaller {
@@ -438,10 +438,16 @@ html {
     font-size: 1.45em;
   }
   .bigbutton {
-    padding:20px!important;
+    padding:4px 14px!important;
     /* min-width:250px!important; */
     font-size: 1.2em!important;
     /* height: 30px!important; */
+    border-radius: 15px!important;
+    border: 2px solid rgb(101, 183, 255);
+  }
+  .bigbutton:hover {
+    background-color: rgb(244, 131, 18);
+    border: 2px solid rgb(255, 174, 116);
   }
   /* By default on smaller screens, make the modal dialog full width */
 .custom-video-dialog {

@@ -44,9 +44,8 @@
         top: -20px;
       }
       .large {
-        font-size: 1.825em!important;
+        font-size: 1.4em!important;
         line-height:normal;
-        display:block;
       }
       h2, h3{
         font-size: 2.7em!important; 
@@ -83,9 +82,8 @@
         color: #414141
       }
       .large {
-        font-size: 1.625em!important;
+        font-size: 1.3em!important;
         line-height:normal;
-        display:block;
       }
       h2, h3 {
         font-size: 2.2em!important; 
@@ -129,9 +127,8 @@
         border: 9px solid white!important;
       }
       .large {
-        font-size: 1.6em!important;
+        font-size: 1.3em!important;
         line-height:normal;
-        display:block;
       }
       .offer-card {
         padding: 20px 0px!important;
@@ -213,9 +210,8 @@
         border-radius: 0!important;
       }
       .large {
-        font-size: 1.0em!important;
+        font-size: 1.2em!important;
         line-height:normal;
-        /* display:block; */
 
       }
       .offer-card {
@@ -290,7 +286,7 @@
         
       }
       .bigbutton {
-        margin-top:40px!important;
+        margin:10px auto 10px auto!important;
         font-size: 1.2em!important;
       }
       .video {
