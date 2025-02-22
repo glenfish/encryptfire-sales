@@ -224,6 +224,11 @@ html {
         font-size: 1.4em;
         font-weight: bold;
       }
+      .large-subheader {
+        font-size: 1.625em;
+        font-weight: bold;
+        display:block;
+      }
       .smaller {
         font-size: 0.85em;
       }
@@ -538,6 +543,7 @@ audio {
   width: 100%;
   width: 250px;
   height: 30px;
+  opacity: 0.7;
 }
 .modal-content {
   background-color: transparent!important;

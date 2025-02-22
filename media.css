@@ -68,6 +68,7 @@
        }
 
       @media (min-width:720px) and (max-width: 1023.89px) {
+        
         .hero-headline {
         font-size: 2.4em!important;
         position: relative;
@@ -175,6 +176,12 @@
         /* min-width: 380px!important; */
         /* font-size: 95%; */
       }
+      .hero-headline {
+        font-size: 2.2em!important;
+        position: relative;
+        top: -10px;
+        line-height:normal!important;
+        }
 
       }
       @media (min-width:0px) and (max-width: 579.98px) {
@@ -368,6 +375,20 @@
   .custom-video-modal .modal-content {
     height: 600px;
   }
+}
+
+@media (max-width: 367.98px) {
+  .hero-headline {
+    font-size: 1.8em!important;
+    position: relative;
+    top: -8px;
+    line-height:normal!important;
+    }
+    audio {
+
+      width: 200px;
+
+    }
 }
 
 
