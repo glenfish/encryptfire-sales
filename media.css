@@ -255,7 +255,7 @@
         color: #6b6b6b;
       }
       .offer-section {
-        background: linear-gradient(to bottom, #f4f7fa, #333) !important;
+        /* background: linear-gradient(to bottom, #f4f7fa, #333) !important; */
       }
       .hide-on-phones {
         display: none;
@@ -279,9 +279,9 @@
         top: -20px;
       }
       .note {
-        background-color:#333;
+        /* background-color:#333;
         color: rgb(172, 172, 172);
-        border: solid 3px rgb(67, 67, 67);
+        border: solid 3px rgb(67, 67, 67); */
         
       }
       .highlight {
